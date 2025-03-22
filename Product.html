@@ -8,5 +8,47 @@
 </head>
 <body>
     
+
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-grid">
+        <div class="product">
+            <img src="picture2.jpeg" alt="Apple">
+            <h3>Product 1</h3>
+            <p>$10</p>
+            <button onclick="buyProduct()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="picture2.jpeg" alt="Pinaple">
+            <h3>Product 2</h3>
+            <p>$15</p>
+            <button onclick="buyProduct()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="picture4.jpeg" alt="Dragon">
+            <h3>Product 3</h3>
+            <p>$20</p>
+            <button onclick="buyProduct()">Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Shop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function buyProduct() {
+            alert("Product added to cart!");
+        }
+    </script>
 </body>
 </html>
