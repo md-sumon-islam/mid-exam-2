@@ -85,3 +85,14 @@ button:hover {
     padding: 20px;
 }
 
+.product img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 20px;
+}
+
+
